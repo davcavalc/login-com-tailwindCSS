@@ -1,0 +1,7 @@
+@tailwind base;
+.btn {
+	@apply outline-none px-5 py-3 text-white font-semibold rounded-md;
+}
+
+@tailwind components;
+@tailwind utilities;
