@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+	@apply outline-none py-3 px-5 text-white font-semibold rounded-md;
+}
+
+.btn-teal {
+	@apply bg-teal-500;
+}
+
+.btn-teal:hover {
+	@apply bg-teal-900;
+}
